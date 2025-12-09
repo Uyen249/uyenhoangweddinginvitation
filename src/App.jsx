@@ -429,7 +429,7 @@ export default function App() {
             </div>
 
            {/* GIA ĐÌNH HAI BÊN */}
-<div className="text-center mt-10 mb-12">
+<div className="text-center mt-10 mb-12 animate-on-scroll">
   <h3
     className="text-3xl font-extrabold elegant-text mb-6 tracking-wide"
     style={{ color: "#8B0F2F" }}
@@ -827,6 +827,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
