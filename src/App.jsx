@@ -627,12 +627,7 @@ export default function App() {
             alt="QR Mừng cưới"
             className="w-64 h-64 object-cover"
           />
-        </div>
-      </div>
-    </div>
-  </div>
-)}
-            
+        </div>  
                     <p className="text-xs text-gray-500 mt-2 elegant-text">
                       Sự hiện diện của bạn là món quà ý nghĩa nhất!
                     </p>
@@ -832,6 +827,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
