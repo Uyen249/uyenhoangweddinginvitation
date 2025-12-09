@@ -615,20 +615,24 @@ export default function App() {
             </div>
 
             {showQR && (
-              <div className="mb-12 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-8 border-2 border-amber-200 animate-on-scroll">
-                <h3 className="text-2xl font-semibold mb-6 text-center text-amber-800 elegant-text">
-                  Thông tin mừng cưới
-                </h3>
-                <div className="max-w-md mx-auto">
-                  <div className="text-center bg-white rounded-xl p-6 shadow-md">
-                    <div className="bg-gray-100 p-4 rounded-lg mb-4 inline-block">
-                      <img 
-                        src="https://i.ibb.co/GvrxwnYd/IMG-3879.jpg" 
-                        alt="QR Mừng cưới"
-                        className="w-64 h-64 object-cover"
-                      />
-                    </div>
-                  
+  <div className="mb-12 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-8 border-2 border-amber-200 animate-on-scroll">
+    <h3 className="text-2xl font-semibold mb-6 text-center text-amber-800 elegant-text">
+      Thông tin mừng cưới
+    </h3>
+    <div className="max-w-md mx-auto">
+      <div className="text-center bg-white rounded-xl p-6 shadow-md">
+        <div className="bg-gray-100 p-4 rounded-lg mb-4 inline-block">
+          <img 
+            src="https://i.ibb.co/GvrxwnYd/IMG-3879.jpg" 
+            alt="QR Mừng cưới"
+            className="w-64 h-64 object-cover"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+            
                     <p className="text-xs text-gray-500 mt-2 elegant-text">
                       Sự hiện diện của bạn là món quà ý nghĩa nhất!
                     </p>
@@ -828,6 +832,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
