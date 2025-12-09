@@ -20,21 +20,21 @@ export default function App() {
   const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz8PMXQAz3uzLtk-UMNihngbnGpZ3-ieG215mOx9m0Qv7lpLJGPkKQoTcpa7x0JpOnB/exec';
 
   const headerPhotos = [
-    'https://drive.google.com/uc?export=view&id=1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0',
-    'https://drive.google.com/uc?export=view&id=1D8nRRIDNtZQbzuoY4ON8cvTb4vXCCRHJ',
-    'https://drive.google.com/uc?export=view&id=1Y_cMVjKWFNi7PBI1JpyuIyUvmLkwJetN',
-    'https://drive.google.com/uc?export=view&id=1VUvDQI-84SiaNE30iz2l8g5qBL2EyBdC'
+    'https://i.ibb.co/zVL0qRP6/DSC02972.jpg',
+    'https://i.ibb.co/pvfMSxTc/DSC03536.jpg',
+    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg',
+    'https://i.ibb.co/Fk73F03W/DSC03816.jpg'
   ];
 
   const weddingDate = new Date('2025-12-28T11:00:00');
 
   const photos = [
-   'https://drive.google.com/uc?export=view&id=1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0',
-    'https://drive.google.com/uc?export=view&id=1g3KJqcuhPFWUcjXVCnWYxNKWaNRfZbmX',
-    'https://drive.google.com/uc?export=view&id=1cCbEH5xqj5cPUCtneRxkAGH63w2QC5iI',
-    'https://drive.google.com/uc?export=view&id=1DyB3sh0vYiZKL5pIPXrOwo4fE4BwqPCm',
-    'https://drive.google.com/uc?export=view&id=1nB6MTxGyFOf-H8MhzmzNev7bz6ICakmW',
-    'https://drive.google.com/uc?export=view&id=1f4uga3_zDCgz3SREMbYgd4tnhMCFYkWf'
+    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg',
+    'https://i.ibb.co/svqStNCw/DSC03588.jpg',
+    'https://i.ibb.co/6cTSYW6K/DSC03884.jpg',
+    'https://i.ibb.co/5WzgRzW4/DSC03163.jpg',
+    'https://i.ibb.co/fYCbsQqZ/DSC03386.jpg',
+    'https://i.ibb.co/zTZ7snSL/DSC03907.jpg'
   ];
 
   const calendarDays = () => {
@@ -406,11 +406,11 @@ export default function App() {
                 <Heart className="w-16 h-16 mx-auto mb-4 animate-pulse" />
               </div>
               <h1 className="couple-names text-6xl md:text-7xl mb-2">
-                Tạ Thị Thanh Uyên
+                Thanh Uyên
               </h1>
               <div className="text-4xl my-4 font-light elegant-text">&</div>
               <h1 className="couple-names text-6xl md:text-7xl mb-6">
-                Bùi Hữu Hoàng
+                Hữu Hoàng
               </h1>
               <div className="text-xl font-light tracking-widest elegant-text">
                 28 • 12 • 2025
@@ -498,7 +498,7 @@ export default function App() {
                 {/* Ảnh */}
                 <div className="bg-gray-100 overflow-hidden mb-4">
                   <img 
-                    src="https://drive.google.com/uc?export=view&id=1P153knJHnBVI6_hrSyng2rfd-5Q7i3nV" 
+                    src="https://i.ibb.co/HfHqhWMZ/DSC03331.jpg" 
                     alt="Ceremony"
                     className="w-full aspect-square object-cover"
                   />
@@ -769,6 +769,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
