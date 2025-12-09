@@ -20,10 +20,10 @@ export default function App() {
   const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz8PMXQAz3uzLtk-UMNihngbnGpZ3-ieG215mOx9m0Qv7lpLJGPkKQoTcpa7x0JpOnB/exec';
 
   const headerPhotos = [
-    'https://i.ibb.co/zVL0qRP6/DSC02972.jpg',
+   'https://i.ibb.co/zVL0qRP6/DSC02972.jpg',
     'https://i.ibb.co/pvfMSxTc/DSC03536.jpg',
-    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg',
     'https://i.ibb.co/Fk73F03W/DSC03816.jpg'
+    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg',
   ];
 
   const weddingDate = new Date('2025-12-28T11:00:00');
@@ -428,6 +428,40 @@ export default function App() {
               </p>
             </div>
 
+            <div className="py-12 animate-on-scroll">
+  <h2 className="text-center text-3xl font-semibold mb-10 elegant-text">
+    Gia đình hai bên
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
+    
+    {/* Nhà trai */}
+    <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-rose-100">
+      <h3 className="text-2xl font-semibold text-rose-700 mb-4 elegant-text text-center">
+        Nhà trai
+      </h3>
+      <ul className="text-gray-700 space-y-2 text-lg elegant-text">
+        <li><span className="font-medium">Ông:</span> Bùi Hữu Cao</li>
+        <li><span className="font-medium">Bà:</span> Nguyễn Thị Minh Ngọc</li>
+        <li><span className="font-medium">Chú rể:</span> Bùi Hữu Hoàng</li>
+      </ul>
+    </div>
+
+    {/* Nhà gái */}
+    <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-pink-100">
+      <h3 className="text-2xl font-semibold text-pink-700 mb-4 elegant-text text-center">
+        Nhà gái
+      </h3>
+      <ul className="text-gray-700 space-y-2 text-lg elegant-text">
+        <li><span className="font-medium">Ông:</span> Tạ Quang Huy</li>
+        <li><span className="font-medium">Bà:</span> Dương Thị Thúy</li>
+        <li><span className="font-medium">Cô dâu:</span> Tạ Thị Thanh Uyên</li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+
             <div className="rounded-2xl p-8 mb-12 shadow-lg border border-gray-200 animate-on-scroll max-w-lg mx-auto" style={{backgroundColor: '#fdf2f6'}}>
               <h3 className="text-2xl font-semibold text-center text-gray-800 elegant-text mb-6">
                 TRÂN TRỌNG KÍNH MỜI
@@ -769,6 +803,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
