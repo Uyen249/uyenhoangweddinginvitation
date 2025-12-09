@@ -623,14 +623,12 @@ export default function App() {
                   <div className="text-center bg-white rounded-xl p-6 shadow-md">
                     <div className="bg-gray-100 p-4 rounded-lg mb-4 inline-block">
                       <img 
-                        src="https://via.placeholder.com/300x300.png?text=QR+Code+Mung+Cuoi" 
+                        src="https://i.ibb.co/GvrxwnYd/IMG-3879.jpg" 
                         alt="QR Mừng cưới"
                         className="w-64 h-64 object-cover"
                       />
                     </div>
-                    <p className="text-sm text-gray-600 mt-4 italic elegant-text">
-                      Quét mã QR để gửi lời chúc mừng 💝
-                    </p>
+                  
                     <p className="text-xs text-gray-500 mt-2 elegant-text">
                       Sự hiện diện của bạn là món quà ý nghĩa nhất!
                     </p>
@@ -830,6 +828,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
