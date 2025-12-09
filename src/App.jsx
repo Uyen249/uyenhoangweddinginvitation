@@ -22,8 +22,8 @@ export default function App() {
   const headerPhotos = [
    'https://i.ibb.co/zVL0qRP6/DSC02972.jpg',
     'https://i.ibb.co/pvfMSxTc/DSC03536.jpg',
-    'https://i.ibb.co/Fk73F03W/DSC03816.jpg'
-    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg',
+    'https://i.ibb.co/Fk73F03W/DSC03816.jpg',
+    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg'
   ];
 
   const weddingDate = new Date('2025-12-28T11:00:00');
@@ -428,35 +428,62 @@ export default function App() {
               </p>
             </div>
 
-            <div className="py-12 animate-on-scroll">
-  <h2 className="text-center text-3xl font-semibold mb-10 elegant-text">
-    Gia đình hai bên
-  </h2>
+           {/* GIA ĐÌNH HAI BÊN */}
+<div className="text-center mt-10 mb-12">
+  <h3
+    className="text-3xl font-extrabold elegant-text mb-6 tracking-wide"
+    style={{ color: "#8B0F2F" }}
+  >
+    GIA ĐÌNH HAI BÊN
+  </h3>
 
-  <div className="grid grid-cols-1 md:grid-cols-2 gap-10 max-w-4xl mx-auto">
-    
-    {/* Nhà trai */}
-    <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-rose-100">
-      <h3 className="text-2xl font-semibold text-rose-700 mb-4 elegant-text text-center">
-        Nhà trai
-      </h3>
-      <ul className="text-gray-700 space-y-2 text-lg elegant-text">
-        <li><span className="font-medium">Ông:</span> Bùi Hữu Cao</li>
-        <li><span className="font-medium">Bà:</span> Nguyễn Thị Minh Ngọc</li>
-        <li><span className="font-medium">Chú rể:</span> Bùi Hữu Hoàng</li>
-      </ul>
-    </div>
+  <div className="flex flex-col md:flex-row items-center justify-center gap-10 mt-6">
 
     {/* Nhà gái */}
-    <div className="bg-white/60 backdrop-blur-md p-8 rounded-2xl shadow-lg border border-pink-100">
-      <h3 className="text-2xl font-semibold text-pink-700 mb-4 elegant-text text-center">
-        Nhà gái
-      </h3>
-      <ul className="text-gray-700 space-y-2 text-lg elegant-text">
-        <li><span className="font-medium">Ông:</span> Tạ Quang Huy</li>
-        <li><span className="font-medium">Bà:</span> Dương Thị Thúy</li>
-        <li><span className="font-medium">Cô dâu:</span> Tạ Thị Thanh Uyên</li>
-      </ul>
+    <div className="text-center">
+      <p
+        className="text-2xl font-bold elegant-text mb-3 tracking-wide"
+        style={{ color: "#8B0F2F" }}
+      >
+        NHÀ GÁI
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700">
+        Ông: <span className="font-semibold">Tạ Quang Huy</span>
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700">
+        Bà: <span className="font-semibold">Dương Thị Thúy</span>
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700 mt-2">
+        Cô dâu: <span className="font-extrabold">Tạ Thị Thanh Uyên</span>
+      </p>
+    </div>
+
+    {/* Icon trái tim */}
+    <Heart className="w-10 h-10" style={{ color: "#8B0F2F" }} />
+
+    {/* Nhà trai */}
+    <div className="text-center">
+      <p
+        className="text-2xl font-bold elegant-text mb-3 tracking-wide"
+        style={{ color: "#8B0F2F" }}
+      >
+        NHÀ TRAI
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700">
+        Ông: <span className="font-semibold">Bùi Hữu Cao</span>
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700">
+        Bà: <span className="font-semibold">Nguyễn Thị Minh Ngọc</span>
+      </p>
+
+      <p className="text-lg elegant-text text-gray-700 mt-2">
+        Chú rể: <span className="font-extrabold">Bùi Hữu Hoàng</span>
+      </p>
     </div>
 
   </div>
@@ -803,6 +830,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
