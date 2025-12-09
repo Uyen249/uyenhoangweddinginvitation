@@ -22,8 +22,7 @@ export default function App() {
   const headerPhotos = [
    'https://i.ibb.co/zVL0qRP6/DSC02972.jpg',
     'https://i.ibb.co/pvfMSxTc/DSC03536.jpg',
-    'https://i.ibb.co/Fk73F03W/DSC03816.jpg',
-    'https://i.ibb.co/yFwy85Xg/DSC03017.jpg'
+    'https://i.ibb.co/Fk73F03W/DSC03816.jpg'
   ];
 
   const weddingDate = new Date('2025-12-28T11:00:00');
@@ -242,7 +241,7 @@ export default function App() {
           position: absolute;
           inset: 0;
           display: grid;
-          grid-template-columns: repeat(4, 1fr);
+          grid-template-columns: repeat(3, 1fr);
           overflow: hidden;
         }
         
@@ -269,13 +268,8 @@ export default function App() {
         }
         
         .header-photo:nth-child(3) {
-          transform: rotate(-1deg);
+          transform: rotate(-1.5deg);
           margin-top: 5px;
-        }
-        
-        .header-photo:nth-child(4) {
-          transform: rotate(2deg);
-          margin-top: -5px;
         }
         
         .header-photo:hover img {
@@ -827,6 +821,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
