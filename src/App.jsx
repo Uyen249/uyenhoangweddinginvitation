@@ -20,21 +20,21 @@ export default function App() {
   const GOOGLE_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbz8PMXQAz3uzLtk-UMNihngbnGpZ3-ieG215mOx9m0Qv7lpLJGPkKQoTcpa7x0JpOnB/exec';
 
   const headerPhotos = [
-    'https://drive.google.com/file/d/1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0/view?usp=sharing',
-    'https://drive.google.com/file/d/1D8nRRIDNtZQbzuoY4ON8cvTb4vXCCRHJ/view?usp=sharing',
-    'https://drive.google.com/file/d/1Y_cMVjKWFNi7PBI1JpyuIyUvmLkwJetN/view?usp=sharing',
-    'https://drive.google.com/file/d/1VUvDQI-84SiaNE30iz2l8g5qBL2EyBdC/view?usp=sharing'
+    'https://drive.google.com/uc?export=view&id=1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0',
+    'https://drive.google.com/uc?export=view&id=1D8nRRIDNtZQbzuoY4ON8cvTb4vXCCRHJ',
+    'https://drive.google.com/uc?export=view&id=1Y_cMVjKWFNi7PBI1JpyuIyUvmLkwJetN',
+    'https://drive.google.com/uc?export=view&id=1VUvDQI-84SiaNE30iz2l8g5qBL2EyBdC'
   ];
 
   const weddingDate = new Date('2025-12-28T11:00:00');
 
   const photos = [
-   'https://drive.google.com/file/d/1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0/view?usp=sharing',
-    'https://drive.google.com/file/d/1g3KJqcuhPFWUcjXVCnWYxNKWaNRfZbmX/view?usp=sharing',
-    'https://drive.google.com/file/d/1cCbEH5xqj5cPUCtneRxkAGH63w2QC5iI/view?usp=sharing',
-    'https://drive.google.com/file/d/1DyB3sh0vYiZKL5pIPXrOwo4fE4BwqPCm/view?usp=sharing',
-    'https://drive.google.com/file/d/1nB6MTxGyFOf-H8MhzmzNev7bz6ICakmW/view?usp=sharing',
-    'https://drive.google.com/file/d/1f4uga3_zDCgz3SREMbYgd4tnhMCFYkWf/view?usp=sharing'
+   'https://drive.google.com/uc?export=view&id=1MfkhDnv0iM8-ModeZuIOLb3Ky1vcnvv0',
+    'https://drive.google.com/uc?export=view&id=1g3KJqcuhPFWUcjXVCnWYxNKWaNRfZbmX',
+    'https://drive.google.com/uc?export=view&id=1cCbEH5xqj5cPUCtneRxkAGH63w2QC5iI',
+    'https://drive.google.com/uc?export=view&id=1DyB3sh0vYiZKL5pIPXrOwo4fE4BwqPCm',
+    'https://drive.google.com/uc?export=view&id=1nB6MTxGyFOf-H8MhzmzNev7bz6ICakmW',
+    'https://drive.google.com/uc?export=view&id=1f4uga3_zDCgz3SREMbYgd4tnhMCFYkWf'
   ];
 
   const calendarDays = () => {
@@ -498,7 +498,7 @@ export default function App() {
                 {/* Ảnh */}
                 <div className="bg-gray-100 overflow-hidden mb-4">
                   <img 
-                    src="https://drive.google.com/file/d/1P153knJHnBVI6_hrSyng2rfd-5Q7i3nV/view?usp=sharing" 
+                    src="https://drive.google.com/uc?export=view&id=1P153knJHnBVI6_hrSyng2rfd-5Q7i3nV" 
                     alt="Ceremony"
                     className="w-full aspect-square object-cover"
                   />
@@ -769,6 +769,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
