@@ -615,7 +615,7 @@ export default function App() {
             </div>
 
             {showQR && (
-  <div className="mb-12 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-8 border-2 border-amber-200 animate-on-scroll">
+  <div className="mb-12 bg-gradient-to-r from-amber-50 to-yellow-50 rounded-2xl p-8 border-2 border-amber-200">
     <h3 className="text-2xl font-semibold mb-6 text-center text-amber-800 elegant-text">
       Thông tin mừng cưới
     </h3>
