@@ -759,22 +759,21 @@ export default function App() {
             </div>
 
            <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl p-4 lg:p-12 mb-12 animate-on-scroll">
-    {/* Tiêu đề đã được căn giữa (text-center) */}
+    {/* Tiêu đề */}
     <h2 className="text-xl lg:text-3xl font-serif text-center mb-8 text-rose-800 elegant-text">
         Đếm ngược đến ngày trọng đại
     </h2>
     
-    {/* TĂNG KHOẢNG CÁCH GIỮA CÁC Ô: gap-3 (mobile) và lg:gap-8 (desktop) */}
-    <div className="grid grid-cols-4 **gap-3 lg:gap-8**">
+    {/* SỬA: Tăng khoảng cách Grid lên gap-4 (mobile) và lg:gap-8 (desktop) */}
+    <div className="grid grid-cols-4 **gap-4 lg:gap-8**">
         {Object.entries(timeLeft).map(([unit, value]) => (
-            // Mỗi cột tự động căn giữa trong Grid
             <div key={unit} className="text-center">
                 <div className="bg-white rounded-xl p-3 lg:p-6 shadow-md hover:shadow-lg transition-shadow">
                     
-                    {/* Chữ số: Mặc định xl (mobile), to hơn nhiều trên desktop (lg:text-5xl) */}
+                    {/* Chữ số */}
                     <div className="text-xl lg:text-5xl font-bold text-rose-600">{value}</div>
                     
-                    {/* Text mô tả: Mặc định xs (mobile), lớn hơn trên desktop (lg:text-base) */}
+                    {/* Text mô tả */}
                     <div className="text-xs lg:text-base text-gray-600 mt-1 capitalize">
                         {unit === 'days' ? 'Ngày' : unit === 'hours' ? 'Giờ' : unit === 'minutes' ? 'Phút' : 'Giây'}
                     </div>
@@ -782,8 +781,10 @@ export default function App() {
             </div>
         ))}
     </div>
+    {/* Thêm khoảng trống dưới khối đếm ngược để cân bằng */}
+    <div className="mt-8"></div> 
 </div>
-
+            
             <div className="mt-12 text-center text-gray-600 animate-on-scroll">
               <Heart className="w-6 h-6 mx-auto mb-2 text-rose-500" />
               <p className="text-sm elegant-text">
@@ -840,6 +841,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
