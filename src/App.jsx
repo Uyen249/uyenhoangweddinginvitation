@@ -758,24 +758,24 @@ export default function App() {
               </div>
             </div>
 
-            <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl **p-4 lg:p-12** mb-12 animate-on-scroll">
-    {/* Tiêu đề: Mặc định xl (mobile), lớn hơn trên desktop (lg:text-3xl) */}
-    <h2 className="text-xl **lg:text-3xl** font-serif text-center mb-6 text-rose-800 elegant-text">
+           <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-2xl p-4 lg:p-12 mb-12 animate-on-scroll">
+    {/* Tiêu đề đã được căn giữa (text-center) */}
+    <h2 className="text-xl lg:text-3xl font-serif text-center mb-8 text-rose-800 elegant-text">
         Đếm ngược đến ngày trọng đại
     </h2>
     
-    {/* Grid: Gap nhỏ trên mobile, lớn hơn trên desktop */}
-    <div className="grid grid-cols-4 **gap-2 lg:gap-6**">
+    {/* TĂNG KHOẢNG CÁCH GIỮA CÁC Ô: gap-3 (mobile) và lg:gap-8 (desktop) */}
+    <div className="grid grid-cols-4 **gap-3 lg:gap-8**">
         {Object.entries(timeLeft).map(([unit, value]) => (
+            // Mỗi cột tự động căn giữa trong Grid
             <div key={unit} className="text-center">
-                {/* Ô con: Padding nhỏ trên mobile, lớn hơn trên desktop */}
-                <div className="bg-white rounded-xl **p-3 lg:p-6** shadow-md hover:shadow-lg transition-shadow">
+                <div className="bg-white rounded-xl p-3 lg:p-6 shadow-md hover:shadow-lg transition-shadow">
                     
                     {/* Chữ số: Mặc định xl (mobile), to hơn nhiều trên desktop (lg:text-5xl) */}
-                    <div className="text-xl **lg:text-5xl** font-bold text-rose-600">{value}</div>
+                    <div className="text-xl lg:text-5xl font-bold text-rose-600">{value}</div>
                     
                     {/* Text mô tả: Mặc định xs (mobile), lớn hơn trên desktop (lg:text-base) */}
-                    <div className="text-xs **lg:text-base** text-gray-600 mt-1 capitalize">
+                    <div className="text-xs lg:text-base text-gray-600 mt-1 capitalize">
                         {unit === 'days' ? 'Ngày' : unit === 'hours' ? 'Giờ' : unit === 'minutes' ? 'Phút' : 'Giây'}
                     </div>
                 </div>
@@ -840,6 +840,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
