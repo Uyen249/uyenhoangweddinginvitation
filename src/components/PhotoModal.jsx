@@ -57,6 +57,7 @@ export default function PhotoModal({ photoUrl, onClose, onNext, onPrev, hasNext,
                 <img
                     src={photoUrl}
                     alt="Full size wedding photo"
+                    crossOrigin="anonymous"
                     // Thay max-h-screen thành max-h-[90vh] để có khoảng cách
                     className="max-w-full max-h-[90vh] object-contain rounded-lg shadow-2xl transition-transform duration-300" 
                 />
@@ -75,3 +76,4 @@ export default function PhotoModal({ photoUrl, onClose, onNext, onPrev, hasNext,
         </div>
     );
 }
+
