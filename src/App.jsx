@@ -56,24 +56,24 @@ const goToPrev = () => {
 
   const photos = [
     'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03017.jpg',
-    'https://i.ibb.co/5WzgRzW4/DSC03163.jpg',
-    'https://i.ibb.co/hRR4Fj8t/DSC03281-1.jpg',
-    'https://i.ibb.co/hJKpcrXv/DSC03090-1.jpg',
-    'https://i.ibb.co/tMvLvKfX/DSC03047-1.jpg',
-    'https://i.ibb.co/xN3FZBq/DSC03063-1.jpg',
-    'https://i.ibb.co/svqStNCw/DSC03588.jpg',
-    'https://i.ibb.co/fYCbsQqZ/DSC03386.jpg',
-    'https://i.ibb.co/rGcxnybj/DSC03636-1.jpg',
-    'https://i.ibb.co/qYh7VBNC/DSC03434-1.jpg',
-    'https://i.ibb.co/whcjs6tW/DSC03486-1.jpg',
-    'https://i.ibb.co/FL7SdVjx/DSC03731-1.jpg',
-    'https://i.ibb.co/6cTSYW6K/DSC03884.jpg',
-    'https://i.ibb.co/DfPkzn2S/DSC03841-1.jpg',
-    'https://i.ibb.co/3mQpf6j0/DSC03938-1.jpg',
-    'https://i.ibb.co/KjJ0n2Vw/DSC03896-2.jpg',
-    'https://i.ibb.co/bMtPZT5j/DSC03845-1.jpg',
-    'https://i.ibb.co/zTZ7snSL/DSC03907.jpg'
-  ];
+  'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03047.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03063.jpg',    
+'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03090.jpg',    
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03163.jpg',    
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03281.jpg', 
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03386.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03486.jpg',  
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03518.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03588.jpg', 
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03636.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03731.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03841.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03845.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03884.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03896.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03907.jpg',
+    'https://raw.githubusercontent.com/Uyen249/uyenhoangweddinginvitation/main/public/DSC03938.jpg',
+];
 
   const calendarDays = () => {
     const firstDay = new Date(2025, 11, 1).getDay();
@@ -894,6 +894,7 @@ const goToPrev = () => {
     </div>
   );
 }
+
 
 
 
