@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Heart, MapPin, Calendar, Clock, Gift, Volume2, VolumeX } from 'lucide-react';
-import PhotoModal from './Components/PhotoModal';
+import PhotoModal from './components/PhotoModal';
 
 export default function App() {
   const [timeLeft, setTimeLeft] = useState({});
@@ -894,6 +894,7 @@ const goToPrev = () => {
     </div>
   );
 }
+
 
 
 
