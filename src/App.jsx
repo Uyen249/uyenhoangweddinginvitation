@@ -55,7 +55,7 @@ const goToPrev = () => {
   const weddingDate = new Date('2025-12-28T11:00:00');
 
   const photos = [
-    'https://drive.google.com/uc?export=view&id=127deCRbmdxTVBcUvUWc-BZO-VtUIsR2G',
+    'https://drive.google.com/uc?export=view&id=127deCRbmdxTVBcUvUWc-BZO-VtUIsR2G&v=1',
     'https://i.ibb.co/5WzgRzW4/DSC03163.jpg',
     'https://i.ibb.co/hRR4Fj8t/DSC03281-1.jpg',
     'https://i.ibb.co/hJKpcrXv/DSC03090-1.jpg',
@@ -894,6 +894,7 @@ const goToPrev = () => {
     </div>
   );
 }
+
 
 
 
