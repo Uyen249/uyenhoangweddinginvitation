@@ -554,7 +554,7 @@ const goToPrev = () => {
                 <div className="my-6">
                   <p className="text-lg font-semibold text-rose-700 mb-2">VÀO LÚC</p>
                   <p className="text-xl font-bold text-rose-800" style={{fontFamily: 'Courier New, monospace'}}>
-                    16H00 NGÀY 27 THÁNG 12 NĂM 2025
+                    14H00 NGÀY 27 THÁNG 12 NĂM 2025
                   </p>
                   <p className="text-sm text-gray-600 mt-2">(Tức ngày 08 tháng 11 năm Ất Tỵ)</p>
                 </div>
@@ -894,6 +894,7 @@ const goToPrev = () => {
     </div>
   );
 }
+
 
 
 
